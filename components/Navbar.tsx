@@ -44,7 +44,7 @@ export default function Navbar() {
                 href={item.href}
                 className={`rounded-lg px-4 py-2 text-sm transition ${
                   isActive
-                    ? "bg-blue-50 font-semibold text-blue-700"
+                    ? "font-semibold text-blue-700 underline underline-offset-4"
                     : "font-medium text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                 }`}
               >
@@ -77,7 +77,7 @@ export default function Navbar() {
                   onClick={() => setMenuOpen(false)}
                   className={`rounded-lg px-4 py-2 text-sm transition ${
                     isActive
-                      ? "bg-blue-50 font-semibold text-blue-700"
+                      ? "font-semibold text-blue-700"
                       : "font-medium text-slate-600 hover:bg-slate-100"
                   }`}
                 >

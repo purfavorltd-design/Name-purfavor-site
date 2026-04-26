@@ -4,7 +4,6 @@ import { Mail, MapPin, Globe, ShieldCheck } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 mt-20">
-
       <div className="container-main py-16">
 
         {/* GRID */}
@@ -15,18 +14,15 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Image src="/logo.png" alt="Purfavor" width={110} height={40} />
             </div>
-
             <p className="text-gray-400 text-sm leading-relaxed">
               Purfavor is a retail distribution company operated by MAM Enterprise Ltd,
               specializing in wholesale purchasing and structured marketplace distribution
               across Amazon UK and Amazon US.
             </p>
-
             <div className="flex items-center gap-2 mt-4 text-sm text-gray-300">
               <ShieldCheck className="w-4 h-4 text-blue-400" />
               <span>Compliant • Inventory-Based • Authorized Partnerships</span>
             </div>
-
             <a
               href="https://www.linkedin.com/company/purfavor/?viewAsMember=true"
               target="_blank"
@@ -78,11 +74,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-blue-400 mt-1 shrink-0" />
-                <span>
-                  13 Alfred Road<br />
-                  CV1 5BN, Coventry<br />
-                  United Kingdom
-                </span>
+                <span>13 Alfred Road<br />CV1 5BN, Coventry<br />United Kingdom</span>
               </li>
             </ul>
           </div>
@@ -102,7 +94,6 @@ export default function Footer() {
         </div>
 
       </div>
-
     </footer>
   );
 }

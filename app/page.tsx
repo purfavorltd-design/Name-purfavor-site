@@ -65,52 +65,43 @@ export default function Home() {
       {/* WHO WE WORK WITH */}
       <section className="py-20">
         <div className="container-main">
-
           <h2 className="text-3xl font-bold mb-10">Who We Work With</h2>
-
           <div className="grid md:grid-cols-3 gap-8">
             <VerticalCard icon={<Briefcase />} title="Brands Seeking Distribution" text="MAP protection and long-term brand growth." />
             <VerticalCard icon={<Boxes />} title="Authorized Distributors" text="Inventory-backed and transparent operations." />
             <VerticalCard icon={<Factory />} title="Manufacturers Expanding" text="Structured marketplace entry and scaling." />
           </div>
-
         </div>
       </section>
 
       {/* HOW WE PROTECT */}
       <section className="bg-gray-50 py-20">
         <div className="container-main text-center">
-
           <h2 className="text-3xl font-bold mb-12">How We Protect & Grow Your Brand</h2>
-
           <div className="grid md:grid-cols-4 gap-8">
             <VerticalCard icon={<ShieldCheck />} title="Brand Protection" text="MAP compliance and accurate representation." />
             <VerticalCard icon={<Package />} title="Inventory Model" text="Direct sourcing, no dropshipping." />
             <VerticalCard icon={<Truck />} title="Distribution" text="Consistent listings across marketplaces." />
             <VerticalCard icon={<Users />} title="Partnership" text="Long-term growth focused relationships." />
           </div>
-
         </div>
       </section>
 
       {/* PROCESS */}
       <section className="py-20">
         <div className="container-main">
-
           <h2 className="text-3xl font-bold text-center mb-12">Our Partnership Process</h2>
-
           <div className="grid md:grid-cols-3 gap-8">
             <ProcessCard number="1" title="Intro & Review" text="We understand your brand and goals." />
             <ProcessCard number="2" title="Compliance & Onboarding" text="Verification and setup." />
             <ProcessCard number="3" title="Launch & Reporting" text="Go live with performance tracking." />
           </div>
-
         </div>
       </section>
 
       {/* CTA */}
-      <section className="bg-blue-50 py-16 text-center">
-        <div className="container-main">
+      <section className="bg-blue-50 py-16">
+        <div className="container-main text-center">
           <h2 className="text-2xl font-semibold mb-4">Ready to build a long-term partnership?</h2>
           <a href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
             Request Partnership
@@ -122,14 +113,10 @@ export default function Home() {
   );
 }
 
-/* COMPONENTS */
-
 function VerticalCard({ icon, title, text }: any) {
   return (
     <div className="bg-white border rounded-2xl p-8 shadow-sm hover:shadow-xl hover:scale-105 transition duration-300 text-center cursor-pointer">
-      <div className="flex justify-center text-blue-600 mb-6">
-        {icon}
-      </div>
+      <div className="flex justify-center text-blue-600 mb-6">{icon}</div>
       <h3 className="font-semibold text-lg mb-3 text-blue-600">{title}</h3>
       <p className="text-gray-600 text-sm">{text}</p>
     </div>

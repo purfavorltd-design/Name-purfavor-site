@@ -3,14 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --brand-50: #eff6ff;
-    --brand-100: #dbeafe;
-    --brand-600: #2563eb;
-    --brand-700: #1d4ed8;
-    --brand-900: #1e3a8a;
-  }
-
   body {
     @apply bg-white text-slate-800 antialiased;
   }
@@ -18,7 +10,7 @@
 
 @layer components {
   .container-main {
-    @apply mx-auto w-full max-w-7xl px-6 lg:px-12;
+    @apply mx-auto w-full max-w-7xl px-6 lg:px-16;
   }
 
   .section-space {
@@ -38,7 +30,7 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-900;
+    @apply inline-flex items-center justify-center rounded-xl bg-brand-700 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-900;
   }
 
   .btn-secondary {
