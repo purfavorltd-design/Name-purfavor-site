@@ -9,10 +9,10 @@
 }
 
 @layer components {
-  /* MAIN CONTAINER — wide layout (1440px) */
+  /* MAIN CONTAINER — near-full-width, scales with viewport */
   .container-main {
-    @apply mx-auto w-full px-6 sm:px-8 md:px-12 lg:px-16;
-    max-width: 1440px;
+    @apply mx-auto w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20;
+    max-width: 1920px;
   }
 
   .section-space {
