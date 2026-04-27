@@ -3,7 +3,7 @@ import { Mail, MapPin, Globe, ShieldCheck } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-20">
+    <footer className="w-full bg-gray-900 text-gray-300 mt-20">
       <div className="container-main py-16">
 
         {/* GRID */}

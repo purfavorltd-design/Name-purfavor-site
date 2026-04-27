@@ -13,8 +13,8 @@ export default function Home() {
     <main className="bg-white text-gray-900">
 
       {/* HERO */}
-      <section className="py-20">
-        <div className="container-main grid md:grid-cols-2 gap-12 items-center">
+      <section className="w-full py-20">
+        <div className="container-main grid md:grid-cols-2 gap-16 items-center">
 
           <div>
             <span className="inline-block bg-blue-50 text-blue-600 text-sm font-medium px-3 py-1 rounded-full mb-4">
@@ -25,7 +25,7 @@ export default function Home() {
               Authorized Online Retail Partner for Brands
             </h1>
 
-            <p className="text-gray-600 mb-6 max-w-xl">
+            <p className="text-gray-600 mb-6">
               Purfavor partners with brands and authorized distributors to purchase inventory at scale,
               maintain pricing integrity, and represent products professionally across Amazon marketplaces.
               Operations support both Amazon UK and Amazon US.
@@ -63,7 +63,7 @@ export default function Home() {
       </section>
 
       {/* WHO WE WORK WITH */}
-      <section className="py-20">
+      <section className="w-full py-20">
         <div className="container-main">
           <h2 className="text-3xl font-bold mb-10">Who We Work With</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       {/* HOW WE PROTECT */}
-      <section className="bg-gray-50 py-20">
+      <section className="w-full bg-gray-50 py-20">
         <div className="container-main text-center">
           <h2 className="text-3xl font-bold mb-12">How We Protect & Grow Your Brand</h2>
           <div className="grid md:grid-cols-4 gap-8">
@@ -88,7 +88,7 @@ export default function Home() {
       </section>
 
       {/* PROCESS */}
-      <section className="py-20">
+      <section className="w-full py-20">
         <div className="container-main">
           <h2 className="text-3xl font-bold text-center mb-12">Our Partnership Process</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -100,7 +100,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="bg-blue-50 py-16">
+      <section className="w-full bg-blue-50 py-16">
         <div className="container-main text-center">
           <h2 className="text-2xl font-semibold mb-4">Ready to build a long-term partnership?</h2>
           <a href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
